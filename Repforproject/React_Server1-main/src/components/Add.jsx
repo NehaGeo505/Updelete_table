@@ -51,7 +51,7 @@ const Add = (props) => { //post no value. put some value comes
  return (
     <div style={{paddingTop:"100px"}}>
       
-      <h1>Name:<TextField id="filled-basic" name='sname' value={datas.sname} namelabel="Enter Name" variant="filled" onChange={inputHandler}/></h1>
+      <h1>Name:<TextField id="filled-basic" name='sname' value={datas.sname} label="Enter Name" variant="filled" onChange={inputHandler}/></h1>
        <br />
        {/* //name means name of input field and value is value entered by user */}
        {/* Why value={data.sname}?? */}
